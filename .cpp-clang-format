@@ -1,15 +1,18 @@
 # https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 IndentWidth: 4
 Language: Cpp
+AccessModifierOffset: -4
 AlignAfterOpenBracket: AlwaysBreak
 AllowShortBlocksOnASingleLine: Never
 AllowShortCaseLabelsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: InlineOnly
 AllowShortIfStatementsOnASingleLine: Never
 AlwaysBreakAfterReturnType: TopLevelDefinitions
+AlwaysBreakTemplateDeclarations: Yes
 BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBraces: Allman
+BreakConstructorInitializers: BeforeComma
 ColumnLimit: 120
 ContinuationIndentWidth: 4
 IncludeBlocks: Regroup
@@ -23,6 +26,7 @@ IndentWrappedFunctionNames: false
 KeepEmptyLinesAtTheStartOfBlocks: false
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: None
+PointerAlignment: Left
 SortIncludes: true
 SpaceAfterCStyleCast: false
 SpaceAfterLogicalNot: false
@@ -39,7 +43,7 @@ SpaceInEmptyParentheses: false
 SpacesBeforeTrailingComments: 1
 SpacesInAngles: false
 SpacesInCStyleCastParentheses: false
-# SpacesInConditionalStatement: true
+SpacesInConditionalStatement: true
 SpacesInContainerLiterals: false
 SpacesInSquareBrackets: false
 Standard: Latest
